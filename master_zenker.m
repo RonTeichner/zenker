@@ -41,10 +41,10 @@ for withdrawal_rate=withdrawal_rate_vec
             
             
             %% liquid supply:
-            start_withdrawl=500;
-            finish_withdrawl=1500;
-            start_suply=2000;
-            finish_suply=3000;
+            start_withdrawl=500;    % [sec]
+            finish_withdrawl=1500;  % [sec]
+            start_suply=2000;       % [sec]
+            finish_suply=3000;      % [sec]
             if finish_suply>time_total
                 error('finish_suply should be smaller than total_time')
             end
