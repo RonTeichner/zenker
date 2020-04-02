@@ -12,7 +12,7 @@ dt=0.01;
 iterations=time_total/dt;
 
 %% shock parameters:
-withdrawal_rate_vec=0.25;%[0 0.1 0.25 0.4];
+withdrawal_rate_vec=0;%[0 0.1 0.25 0.4];
 c_PRSW_max_vec=70;%[30 50 70 100];
 M_C_vec=0.6;%[0 0.2 0.4 0.6 0.8];
 
